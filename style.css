@@ -1,0 +1,79 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+input, select, textarea {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.receipt {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.receipt h3 {
+    color: #333;
+}
+
+.receipt p {
+    font-size: 16px;
+    line-height: 1.6;
+}
